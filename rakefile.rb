@@ -1,8 +1,9 @@
-require ‘cucumber’
-require ‘cucumber/rake/task’
+ï»¿#encoding: utf-8 
+require 'cucumber'
+require 'cucumber/rake/task'
 
 Cucumber::Rake::Task.new(:features) do |t|
-  t.profile = ‘ci’
+  t.profile = 'ci'
 end
 
 task :default => :features
