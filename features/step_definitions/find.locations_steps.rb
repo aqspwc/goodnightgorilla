@@ -1,5 +1,5 @@
 Given(/^I am on (.+)$/) do |url|
-  visit ('http://www.va.gov/bluebutton/') #open firefox and go to va.gov
+  visit ('http://www.va.gov/bluebutton12343/') #open firefox and go to va.gov
 end
 
 When(/^I enter my zip code$/) do
